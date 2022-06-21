@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: white /*cor do fundo da página*/ url(../imagens/topo.png) repeat-x;
+}
+
+body.home #menusuperior a#home,
+body.sobre #menusuperior a#sobre,
+body.projetos #menusuperior a#projetos,
+body.curriculo #menusuperior a#curriculo,
+body.contato #menusuperior a#contato{
+	color: white; /*cor da letra menu*/
+	background: #800080; /*cor aba selecionada*/     
+	cursor: text;
+
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto; /*centralizar*/
+	
+}
+
+#topo{
+	height: 150px;
+	background: url(../imagens/4.png) no-repeat right top;
+	padding-top: 65px;/*posição do menu*/
+	margin-left: 10px;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+#topo ul{
+	background: #00008b; /*cor do menu*/
+	margin-top: 30px;
+	float: left;
+}
+
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.8em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 1.8em;
+	text-decoration: none;
+	color: white;
+	background: url(../imagens/divisor.png) repeat-y left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #b8860b; /*cor quando passa o mouse*/
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+/*Configuração layout 3 colunas*/ 
+#conteudo{
+	margin-top: 10px;
+	background: #DCDCDC;
+
+}
+
+#trescolunas #primario{
+	width: 270px;
+	float: left;
+	margin: 0 15px 20px 195px;
+
+}
+
+#duascolunas #primario{
+	width: 555px;
+	float: left;
+	margin: 0 0px 20px 195px;
+
+}
+
+#umacoluna #primario{
+	width: 720px;
+	float: left;
+	margin: 0;
+	
+}
+
+
+#secundario{
+	width: 270px;
+	float: left;
+}
+
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+
+}
+
+/*aba Brasil*/ 
+#principal{
+	width: 550px;
+	float: right;
+	margin: 0 0px 20px 0px;
+	background: blue;
+}
+
+#barralateral{
+	width: 180px;
+	float: left;
+	background: orange;
+	margin: 0 0 20px 0px;
+}
+
+#principalfotos{
+	width: 750px;
+	float: left;
+	background: blue;
+	margin: 0 0px 20px 0;
+
+}
+
+/*rodape*/ 
+#containerrodape{
+	background: #294c71;
+	padding: 10px;
+}
+
+.caixa{
+	background: #dcdcdc url(../imagens/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+}
+
+h2{
+	font-size: 1em;
+	background: #3ab8c8;
+	color: #fff;
+	padding: 5px 5px 5px 10px;
+}
+
+h5{
+	font-size: 1.2em;
+
+}
+
+.caixa-conteudo{
+	background: #f4f0ec;/*cor do fundo das caixas de conteúdo*/
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/*Menu lateral*/ 
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	color: #a1a1a1;
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 25px;
+
+}	
+
+label{
+	display: block;
+	cursor: pointer;
+	
+}
+
+input{
+	font-size: 0.9em;
+	background-color: #fff;
+	margin-top: 5px;
+	width: 130px;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}	
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #696969;
+}
+
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.destaque h3{
+	background: #5D0450;
+	color: #fff; /*cor da letra do destaque na foto*/
+}
+
+.entrevista h3{
+	background: #b10333;
+	color: #daa520;
+}
+
+/*lista de noticias MUNDO*/
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a h3{
+	font-size: 1em;
+	background: #daa520;
+	padding: 0;
+
+}
+
+#lista-noticias li a p{
+	font-size: 0.8em;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+}
+
+#lista-noticias li a{
+	text-decoration: none;/*remover o underline*/
+	font-size:0.8em;
+
+}
+
+#lista-noticias li:hover{
+	background: #f5deb3;
+	cursor: pointer;
+	
+}
+
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: whitesmoke;
+
+}
+
+#redesocial a{
+	text-decoration: none;
+	font-size: 2em;
+	padding: 2px;
+	color: black;
+
+
+}
+
+#redesocial a:hover{
+	color: blue;
+	background: white;
+	margin-left: 20px;
+
+	
+
+}

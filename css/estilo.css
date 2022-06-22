@@ -286,9 +286,11 @@ h3{
 
 #redesocial a:hover{
 	color: blue;
-	background: white;
-	margin-left: 20px;
 
 	
+}
 
+#redesocial{
+	padding: 15px;
+	margin-left: 50px;
 }
